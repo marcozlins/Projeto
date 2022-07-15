@@ -1,0 +1,264 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    font-family: Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.botao {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #a19696bd;
+    font-size: 2em;
+    border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(124, 128, 129, 0.133);
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Times, serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li a {
+    
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color:rgb(230, 230, 230)
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/camera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #a19696;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    color: #a19696;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #a19696bd;
+    color: #ffffff;
+}
+
+
+
+#sobre h2 {
+    color: rgb(248, 248, 248);
+
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+
+}
+
+#sobre .botao {
+    background-color: white;
+    color: #000000;
+}
+
+
+
+#serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#fotos h2 {
+    margin-bottom: 20px;
+
+}
+
+
+
+#fotos img {
+    width: 80%;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#contato h2{
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #a19696bd;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a19696bd;
+}
+
+@media screen and (min-with: 768px) {
+    
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+
+    }
+
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #serviços {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #serviços h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #serviços div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    #col-sm {
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        
+    }
+
+    #fotos h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #fotos img {
+        width: 33.333333%;
+    }
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato {
+        width: 100%;
+    }
+
+
+}
+
+
+.legenda {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    
+
+}
+
+.legenda2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.legenda3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.jumbotron {
+    font-style: italic;
+}
+
+.col-sm  {
+    text-align: center;
+    
+}
+
+    .container a{
+        color: black;
+    }
+
+   
