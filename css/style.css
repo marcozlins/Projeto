@@ -260,13 +260,19 @@ footer a {
 }
 
 .container  {
-       background-color: #383434;
+       background-color: rgb(116, 109, 73);
     font-size: 20px;
     font-style: italic;
+    
     }
 
 .container a{
     color: #000000;
 }
 
-    
+.frase{
+    color: rgb(116, 109, 73);
+    font-style: italic;
+    font-size: 20px;
+}
+
