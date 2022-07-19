@@ -1,11 +1,12 @@
 body {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 h1, h2, h3 {
     font-family: Times, serif;
-    color: rgb(0, 0, 0);
+    color: rgb(155, 144, 85);
 }
 
 .botao {
@@ -21,7 +22,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(124, 128, 129, 0.133);
+    background-color:rgb(226, 195, 19);
+    color: #000000;
 
 }
 
@@ -60,7 +62,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: #a19696;
+    color:#000000;
     text-align: center;
     padding: 50px;
 }
@@ -257,8 +259,14 @@ footer a {
     
 }
 
-    .container a{
-        color: black;
+.container  {
+       background-color: #383434;
+    font-size: 20px;
+    font-style: italic;
     }
 
-   
+.container a{
+    color: #000000;
+}
+
+    
